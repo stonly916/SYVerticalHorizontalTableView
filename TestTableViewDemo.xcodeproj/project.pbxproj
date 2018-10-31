@@ -7,25 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C63ECB47D0F31190CE9D591D /* libPods-TestTableViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA2D303DA7FB0427CA51CBC /* libPods-TestTableViewDemo.a */; };
+		EE446019217EC05200B2B92F /* SYVerticalHorizontalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE446018217EC05200B2B92F /* SYVerticalHorizontalTableView.m */; };
+		EE4AE34A217DC736001FA866 /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4AE349217DC736001FA866 /* NewViewController.m */; };
 		EE63C35C2179C6DD0059FC30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE63C35B2179C6DD0059FC30 /* AppDelegate.m */; };
 		EE63C35F2179C6DD0059FC30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE63C35E2179C6DD0059FC30 /* ViewController.m */; };
-		EE63C3622179C6DD0059FC30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE63C3602179C6DD0059FC30 /* Main.storyboard */; };
 		EE63C3642179C6E00059FC30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE63C3632179C6E00059FC30 /* Assets.xcassets */; };
-		EE63C3672179C6E00059FC30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE63C3652179C6E00059FC30 /* LaunchScreen.storyboard */; };
 		EE63C36A2179C6E00059FC30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE63C3692179C6E00059FC30 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D6A6A89B373FFD55D9D02AD /* Pods-TestTableViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTableViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestTableViewDemo/Pods-TestTableViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9CA2D303DA7FB0427CA51CBC /* libPods-TestTableViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestTableViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A165EE91126F64ED19DA1037 /* Pods-TestTableViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTableViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestTableViewDemo/Pods-TestTableViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EE446017217EC05200B2B92F /* SYVerticalHorizontalTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYVerticalHorizontalTableView.h; sourceTree = "<group>"; };
+		EE446018217EC05200B2B92F /* SYVerticalHorizontalTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYVerticalHorizontalTableView.m; sourceTree = "<group>"; };
+		EE4AE348217DC736001FA866 /* NewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		EE4AE349217DC736001FA866 /* NewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
 		EE63C3572179C6DD0059FC30 /* TestTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE63C35A2179C6DD0059FC30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EE63C35B2179C6DD0059FC30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EE63C35D2179C6DD0059FC30 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EE63C35E2179C6DD0059FC30 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EE63C3612179C6DD0059FC30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE63C3632179C6E00059FC30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EE63C3662179C6E00059FC30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE63C3682179C6E00059FC30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE63C3692179C6E00059FC30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE63C3732179D0E70059FC30 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +40,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C63ECB47D0F31190CE9D591D /* libPods-TestTableViewDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21847AA48583B1A76E8D82B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A165EE91126F64ED19DA1037 /* Pods-TestTableViewDemo.debug.xcconfig */,
+				0D6A6A89B373FFD55D9D02AD /* Pods-TestTableViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		981A729D26E2685A14F1C2E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CA2D303DA7FB0427CA51CBC /* libPods-TestTableViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EE63C34E2179C6DD0059FC30 = {
 			isa = PBXGroup;
 			children = (
 				EE63C3592179C6DD0059FC30 /* TestTableViewDemo */,
 				EE63C3582179C6DD0059FC30 /* Products */,
+				21847AA48583B1A76E8D82B0 /* Pods */,
+				981A729D26E2685A14F1C2E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,11 +89,14 @@
 				EE63C35B2179C6DD0059FC30 /* AppDelegate.m */,
 				EE63C35D2179C6DD0059FC30 /* ViewController.h */,
 				EE63C35E2179C6DD0059FC30 /* ViewController.m */,
-				EE63C3602179C6DD0059FC30 /* Main.storyboard */,
+				EE4AE348217DC736001FA866 /* NewViewController.h */,
+				EE4AE349217DC736001FA866 /* NewViewController.m */,
+				EE446017217EC05200B2B92F /* SYVerticalHorizontalTableView.h */,
+				EE446018217EC05200B2B92F /* SYVerticalHorizontalTableView.m */,
 				EE63C3632179C6E00059FC30 /* Assets.xcassets */,
-				EE63C3652179C6E00059FC30 /* LaunchScreen.storyboard */,
 				EE63C3682179C6E00059FC30 /* Info.plist */,
 				EE63C3692179C6E00059FC30 /* main.m */,
+				EE63C3732179D0E70059FC30 /* Header.h */,
 			);
 			path = TestTableViewDemo;
 			sourceTree = "<group>";
@@ -78,9 +108,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE63C36D2179C6E00059FC30 /* Build configuration list for PBXNativeTarget "TestTableViewDemo" */;
 			buildPhases = (
+				ABC80E8D72EB4ECC2C8991F3 /* [CP] Check Pods Manifest.lock */,
 				EE63C3532179C6DD0059FC30 /* Sources */,
 				EE63C3542179C6DD0059FC30 /* Frameworks */,
 				EE63C3552179C6DD0059FC30 /* Resources */,
+				9189862E9D7CDC587E88F94A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,13 +160,50 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE63C3672179C6E00059FC30 /* LaunchScreen.storyboard in Resources */,
 				EE63C3642179C6E00059FC30 /* Assets.xcassets in Resources */,
-				EE63C3622179C6DD0059FC30 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9189862E9D7CDC587E88F94A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TestTableViewDemo/Pods-TestTableViewDemo-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestTableViewDemo/Pods-TestTableViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABC80E8D72EB4ECC2C8991F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestTableViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EE63C3532179C6DD0059FC30 /* Sources */ = {
@@ -142,31 +211,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE63C35F2179C6DD0059FC30 /* ViewController.m in Sources */,
+				EE4AE34A217DC736001FA866 /* NewViewController.m in Sources */,
+				EE446019217EC05200B2B92F /* SYVerticalHorizontalTableView.m in Sources */,
 				EE63C36A2179C6E00059FC30 /* main.m in Sources */,
 				EE63C35C2179C6DD0059FC30 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		EE63C3602179C6DD0059FC30 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EE63C3612179C6DD0059FC30 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EE63C3652179C6E00059FC30 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EE63C3662179C6E00059FC30 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EE63C36B2179C6E00059FC30 /* Debug */ = {
@@ -220,7 +272,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -272,7 +324,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -281,9 +333,13 @@
 		};
 		EE63C36E2179C6E00059FC30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A165EE91126F64ED19DA1037 /* Pods-TestTableViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WLV2SY57YT;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Header.h";
 				INFOPLIST_FILE = TestTableViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +353,13 @@
 		};
 		EE63C36F2179C6E00059FC30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D6A6A89B373FFD55D9D02AD /* Pods-TestTableViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WLV2SY57YT;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Header.h";
 				INFOPLIST_FILE = TestTableViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
