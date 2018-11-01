@@ -5,4 +5,4 @@ SYVerticalHorizontalTableView/可以上下、左右滑动的tableView，左右�
 
 #### 动图
 
-![动图](https://upload-images.jianshu.io/upload_images/11866665-2c5fffd6c840d67d.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/300/format/webp)
+![动图](https://upload-images.jianshu.io/upload_images/11866665-2c5fffd6c840d67d.gif)
